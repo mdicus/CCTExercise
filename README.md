@@ -47,15 +47,6 @@ Provide a concise description of your ETL pipeline strategy using AWS Glue. What
 
 Summarize your approach to implementing an analytics solution using AWS services. What key considerations would drive your decisions? What tradeoffs would you evaluate? Which AWS products or services would you leverage and why?
 
-## Evaluation Criteria
-
-Your submission will be evaluated based on your application of best practices in Infrastructure as Code, along with the thoughtfulness, design considerations, and service choices for each area of the exercise. 
-
-We anticipate this exercise taking 1-2 hours to complete. You're welcome to invest more time, but we understand this isn't your primary responsibility. Our goal is to understand your problem-solving approach and knowledge of cloud data architecture.
-
-## Deliverable Format
-Please push your code, diagrams, and documentation to a public repository and provide a link to your submission.
-
 ## Bonus Considerations
 
 - CI/CD pipeline integration

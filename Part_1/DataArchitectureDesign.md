@@ -1,6 +1,6 @@
 # Data Architecture Design
 
-![alt text](https://github.com/medicus/CCTExercise/blob/main/Part_1/DesignDiagram.jpg?raw=true)
+![alt text](https://github.com/mdicus/CCTExercise/blob/main/Part_1/DesignDiagram.jpg?raw=true)
 
 ## Ingestion of Client Data
 Due to the continuous ingestion from client sites, the first step in the data pipeline I have chosen is to use Kinesis. Kinesis is best used when doing real-time streaming from applications and the ordering is important. Kinesis also allows for data to be read again in the same order up to 7 days later, which could be useful for certain use cases. One downside with using Kinesis is that you have to provision the shards ahead of time which could cause issues if experiencing an unexpectedly large amount of data. 
